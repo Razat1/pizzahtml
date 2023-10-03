@@ -19,15 +19,6 @@ const OrderForm = () => {
             setError("Please fill in all required fields.");
             return;
         }
-
-        // Perform any order submission logic here if needed
-
-        // Clear the form upon successful submission
-        // setName("");
-        // setPhoneNumber("");
-        // setAddress("");
-        // setInstructions("");
-        // setError("");
         setSubmitted(true);
         setShowProceedButton(true);
     };

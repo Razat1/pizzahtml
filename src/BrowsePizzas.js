@@ -68,11 +68,11 @@ function BrowsePizzas({addToCart, removeFromCart}) {
                             <h2>{pizza.name}</h2>
                             <img
                                 src={pizza.image}
-                                alt={pizza.name} // Use an appropriate alt text
+                                alt={pizza.name}
                                 className="pizza-image"
                             />
                             <PizzaCustomisation
-                                pizza={pizza} // Pass the current pizza to the PizzaCustomisation component
+                                pizza={pizza}
                                 addToCart={addToCart}
                                 removeFromCart={removeFromCart}
                             />

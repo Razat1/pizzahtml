@@ -20,7 +20,7 @@ function Beverages({ addToCart, removeFromCart }) {
                         <h2>{bevs.name}</h2>
                         <img
                             src={bevs.image}
-                            alt={bevs.name} // Use an appropriate alt text
+                            alt={bevs.name}
                             className="bevs-image"
                         />
                         <p>Price: £{bevs.basePrice.toFixed(2)}</p>

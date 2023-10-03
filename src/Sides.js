@@ -19,7 +19,7 @@ function Sides({ addToCart, removeFromCart }) {
                         <h2>{sides.name}</h2>
                         <img
                             src={sides.image}
-                            alt={sides.name} // Use an appropriate alt text
+                            alt={sides.name}
                             className="sides-image"
                         />
                         <p>Price: £{sides.basePrice.toFixed(2)}</p>
