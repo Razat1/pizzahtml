@@ -1,0 +1,29 @@
+.sides-list {
+    background-color: #c4a581;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    justify-items: center; /* Distribute items evenly in a row */
+    align-items: center; /* Center items vertically */
+    grid-gap: 10px;
+}
+
+.sides-item {
+    flex-wrap: wrap;
+    font-size: 15px;
+    overflow: hidden;
+
+    border-color: black;
+    padding: 10px; /* Add padding to control spacing within items */
+    box-sizing: border-box;
+}
+
+.sides-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Adjust columns for smaller screens */
+    grid-gap: 5px; /* Adjust gap for smaller screens */
+}

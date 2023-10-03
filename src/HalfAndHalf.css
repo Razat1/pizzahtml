@@ -1,0 +1,46 @@
+.combinePizza {
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: "Book Antiqua", serif;
+    color: #4c0201;
+}
+
+.combination {
+    font-weight: bold;
+    color: #4c0201;
+    font-size: 20px;
+}
+
+.combinebtn{
+    font-family: "Book Antiqua", serif;
+    background-color: #4c3e0c;
+    color: white;
+    padding: 5px;
+    font-size: calc(5px + 2vmin);
+    cursor: pointer;
+    border-color: #fffab7;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.combinebtn:hover {
+    background-color: #e0b920;
+    color: azure;
+
+}
+
+.combinationPricebtn{
+    font-family: "Book Antiqua", serif;
+    background-color: #4c3e0c;
+    color: white;
+    padding: 5px;
+    font-size: calc(5px + 2vmin);
+    cursor: pointer;
+    border-color: #fffab7;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.combinationPricebtn:hover {
+    background-color: #e0b920;
+    color: azure;
+
+}

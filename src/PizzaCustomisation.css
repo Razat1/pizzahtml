@@ -1,0 +1,24 @@
+.pizza-options{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.pizza-customisation{
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+/* Apply styles to the labels */
+label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Apply styles to the select elements */
+select {
+    font-weight: bold;
+    font-size: 14px; /* Set the font size */
+    width: 200px; /* Set the width */
+    padding: 5px;
+    background-color: salmon;/* Add padding for spacing */
+}

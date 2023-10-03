@@ -1,0 +1,143 @@
+main {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    height: 20vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+.popcorn{
+    height: 30vmin;
+    pointer-events: none;
+    float: left;
+    top: 10px;
+}
+
+.Title {
+    font-size: 5vmin;
+    color: darkgreen;
+    font-family: "Blackadder ITC", serif;
+    align-items: center;
+}
+
+.heading {
+     color: #4c0201;
+    font-family: serif;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(35deg);
+    }
+}
+
+.browsePizza {
+    background-color: sandybrown;
+    color: black;
+    padding: 10px 20px;
+    font-size: calc(10px + 2vmin);
+    cursor: pointer;
+    border-color: #fffab7;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.browsePizza:hover {
+    background-color: brown;
+    color: azure;
+}
+
+.Sides {
+    background-color: sandybrown;
+    color: black;
+    padding: 10px 20px;
+    font-size: calc(10px + 2vmin);
+    cursor: pointer;
+    border-color: #fffab7;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    margin: 10px;
+}
+
+.Sides:hover {
+    background-color: brown;
+    color: azure;
+}
+
+.Beverages {
+    background-color: sandybrown;
+    color: black;
+    padding: 10px 20px;
+    font-size: calc(10px + 2vmin);
+    cursor: pointer;
+    border-color: #fffab7;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+.Beverages:hover {
+    background-color: brown;
+    color: azure;
+}
+
+.help {
+    background-color: sandybrown;
+    color: black;
+    padding: 20px;
+    font-size: calc(5px + 2vmin);
+    cursor: pointer;
+    border-color: #fffab7;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    top: 10px;
+    right: 90px;
+    z-index: 1;
+    position: absolute;
+}
+
+.help:hover {
+    background-color: brown;
+    color: azure;
+}
+
+.fiftyfifty {
+    background-color: sandybrown;
+    color: black;
+    padding: 10px 20px;
+    font-size: calc(10px + 2vmin);
+    cursor: pointer;
+    border-color: #fffab7;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    margin: 10px;
+}
+
+.fiftyfifty:hover {
+    background-color: brown;
+    color: azure;
+}
+
+.cart {
+    background-color: sandybrown;
+    color: black;
+    padding: 20px;
+    font-size: calc(5px + 2vmin);
+    cursor: pointer;
+    border-color: #fffab7;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+    top: 10px;
+    right: 10px;
+    z-index: 1;
+    position: absolute;
+}
+
+.cart:hover {
+    background-color: brown;
+    color: azure;
+}
