@@ -1,6 +1,14 @@
-# Getting Started with Create React App
+# About this project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+    Gathered requirements to create an interactive and user-friendly platform for ordering pizzas online.
+    Developed a comprehensive React-based Pizza Application with a wide variety of options to cater to diverse user preferences.
+    Created an intuitive user interface allowing users to choose from over 10 different pizzas, add sides, and beverages.
+    Implemented a dynamic system for users to select the base and size, with prices adjusting accordingly.
+    Introduced a unique feature allowing users to customise pizzas with a "half and half" option.
+    Ensured a seamless user experience by making the website responsive and easy to navigate.
+    Successfully delivered a highly interactive and responsive pizza ordering platform.
+    Enhanced user satisfaction by providing a diverse range of choices and customisation options.
+    Increased efficiency in the ordering process with a visually appealing and easy-to-use interface.
 
 ## Available Scripts
 
